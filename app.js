@@ -1,0 +1,1 @@
+document.addEventListener("click",e=>{const b=e.target.closest("[data-scroll]");if(b){document.querySelector(b.dataset.scroll)?.scrollIntoView({behavior:"smooth"})}});
